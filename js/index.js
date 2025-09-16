@@ -1,7 +1,7 @@
 let a = 10;
 let b = 20;
-let sum = a * b;
-console.log(sum);
+let mult = a * b;
+console.log(mult);
 
 let c = 56;
 let d = 7;
