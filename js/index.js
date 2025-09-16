@@ -11,35 +11,31 @@ let e = 15;
 let f = 20;
 console.log(e + f);
 
-let val1 = 11;
-let val2 = true;
-let val3 = 'java script';
-let val4 = '100';
-console.log(val1);
-console.log(val2);
-console.log(val3);
-console.log(val4);
-console.log(typeof val1);
-console.log(typeof val2);
-console.log(typeof val3);
-console.log(typeof val4);
+const userAge = 11;
+console.log(userAge);
+const hasDiscount = true;
+console.log(hasDiscount);
+const currentTopic = 'java script';
+console.log('java script');
+const userId = '100';
+console.log(userId);
 
 let num = 1;
-console.log(num)
+console.log(num);
 num += 11;
-console.log(num)
+console.log(num);
 num -= 11;
-console.log(num)
+console.log(num);
 num *= 11;
-console.log(num)
+console.log(num);
 num /= 11;
-console.log(num)
-num++
-console.log(num)
-num--
-console.log(num)
+console.log(num);
+num++;
+console.log(num);
+num--;
+console.log(num);
 
-let userNumber = Number(prompt('Введіть число'))
+let userNumber = Number(prompt('Введіть число'));
 let squareResult = userNumber ** 2;
 alert("Квадрат числа: " + squareResult);
 
